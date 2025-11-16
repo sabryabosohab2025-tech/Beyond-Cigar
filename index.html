@@ -1,0 +1,204 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Beyond Cigar — Luxury</title>
+
+  <!-- Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
+  <!-- Remix Icon for social icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar fade-in">
+    <nav class="nav-inner">
+      <div class="logo">
+        <img src="logo.jpg" alt="Beyond Cigar logo" />
+      </div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#accessories">Accessories</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="menu-btn" class="menu-btn" aria-label="Menu">☰</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <img src="logo.jpg" class="hero-logo" alt="Beyond Cigar" />
+      <h1 class="hero-title">Luxury Cigars & Fine Accessories</h1>
+      <p class="hero-subtitle">Experience the art of premium, hand-rolled cigars — curated for connoisseurs.</p>
+      <a class="btn" href="#products">Explore Collection</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section about fade-in">
+    <h2 class="section-title">Our Story</h2>
+    <p class="section-text">
+      Beyond Cigar represents sophistication, craftsmanship and the ritual of a fine smoke. Our cigars are sourced
+      from world-class farms and finished by expert rollers.
+    </p>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section id="products" class="section products fade-in">
+    <h2 class="section-title">Premium Collection</h2>
+    <div class="product-grid">
+      <article class="product-card glass">
+        <img src="collection.jpg" alt="Elite Maduro">
+        <h3>V.I.P Lounge</h3>
+        <p>Access to the exclusive VIP lounge includes a complimentary premium cigar.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection1.jpg" alt="Golden Havana">
+        <h3>Golden Havana</h3>
+        <p>cigar was a bold announcement of his presence in the room.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection3.jpg" alt="Royal Oak">
+        <h3>Royal Oak</h3>
+        <p>Silky draw, ideal for an companion.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection4.jpg" alt="Elite Maduro">
+        <h3>Elite Maduro</h3>
+        <p>Bold, earthy roll Blunts with a smooth finish.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection5.jpg" alt="Golden Havana">
+        <h3>Classic Woman</h3>
+        <p>A poised woman with a cigar in a sophisticated setting.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection6.jpg" alt="Royal Oak">
+        <h3>Close Up</h3>
+        <p>Ideal for a women companion.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection7.jpg" alt="Royal Oak">
+        <h3>Handmade</h3>
+        <p>Crafting your own Taste.</p>
+      </article>
+
+      <article class="product-card glass">
+        <img src="collection8.jpg" alt="Royal Oak">
+        <h3>Its not an Ordinary Cigar</h3>
+        <p>It's a distinguished accessory that enhances the man's aura.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section gallery fade-in">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery-grid">
+      <img src="project1.jpg" alt="">
+      <img src="project2.jpg" alt="">
+      <img src="project3.jpg" alt="">
+      <img src="project5.jpg" alt="">
+      <img src="project6.jpg" alt="">
+      <img src="project7.jpg" alt="">
+      <img src="project8.jpg" alt="">
+      <img src="project9.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- ACCESSORIES -->
+  <section id="accessories" class="section accessories fade-in">
+    <h2 class="section-title">Accessories</h2>
+
+    <div class="accessories-grid">
+
+      <article class="accessories-card glass">
+        <img src="accessories.jpg" alt="Cigar Accessories">
+        <h3>Premium Accessories</h3>
+        <p>Cutters, lighters, cigar holders, humidifiers — crafted to complement your luxury experience.</p>
+      </article>
+
+      <article class="accessories-card glass">
+        <img src="accessories1.jpg" alt="Leather Pouch">
+        <h3>Leather Pouch</h3>
+        <p>Cigar Pouch Leather Roll Case Cigar Accessories Cigar Holder.</p>
+      </article>
+
+      <article class="accessories-card glass">
+        <img src="accessories2.jpg" alt="Cedar Case">
+        <h3>Leather Cigar Case</h3>
+        <p>Cedar Wood Lining Travel Humidors for Cigars with Cigar Cutter.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact fade-in">
+    <h2 class="section-title">Contact</h2>
+    <form id="contact-form" class="contact-form" aria-label="Contact form">
+      <input type="text" id="name" placeholder="Your name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <textarea id="message" placeholder="Message" rows="5" required></textarea>
+      <button class="btn" type="submit">Send Message</button>
+      <p id="form-message" class="form-message" role="status" aria-live="polite"></p>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="logo.jpg" alt="Beyond Cigar logo">
+        <p class="footer-note">Curated cigars • Crafted rituals • Timeless luxury</p>
+      </div>
+      </nav>
+    </div>
+    </div>
+
+    <!-- SOCIAL ICONS FIXED BOTTOM LEFT -->
+    <div class="footer-social">
+      <a href="https://instagram.com/YOUR_USERNAME" target="_blank">
+        <i class="ri-instagram-line"></i>
+      </a>
+
+      <a href="https://facebook.com/YOUR_PAGE" target="_blank">
+        <i class="ri-facebook-box-fill"></i>
+      </a>
+
+      <a href="https://wa.me/YOURNUMBER" target="_blank">
+        <i class="ri-whatsapp-line"></i>
+      </a>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> Beyond Cigar — All rights reserved</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
